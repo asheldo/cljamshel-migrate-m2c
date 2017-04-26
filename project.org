@@ -1,0 +1,12 @@
+* Convert godaddy MySQL (e.g. word-hoard) to offline-eventual CouchDB (to get off php)
+** Inspiration
+ https://www.google.com/search?q=convert+mysql+to+couchdb&oq=convert+mysql+to+couch&aqs=chrome.0.0j69i57.16444j0j4&sourceid=chrome&ie=UTF-8
+ https://gist.github.com/cfaulkingham/1097796
+ https://gist.githubusercontent.com/cfaulkingham/1097796/raw/8b12d5645a8588c1bd2d80e3af58f77bcb488633/mysql_to_couchdb.js
+** Perspiration
+# Guide
+http://guide.couchdb.org/draft/tour.html
+# Check local couchdb via futon: curl http://127.0.0.1:5984/
+{"couchdb":"Welcome","uuid":"b15dc93fa35a2048e4b2a3571a2e5f49","version":"1.6.0","vendor":{"version":"15.10","name":"Ubuntu"}}
+curl -X GET http://127.0.0.1:5984/_all_dbs
+
